@@ -1,0 +1,15 @@
+clusterName: openshift
+machine:          
+  numCPUs: 4            # number of CPU cores for the machines
+  diskGiB: 120          # amount of disk storage for the machines in GiB
+  memoryMiB: 8192       # amount of system memory for the machines in MiB
+  templateName:         # Name of OVA template used to deploy Cluster Machines
+
+vmware:
+  vcenterServer:
+  datacenter:
+  templateName:
+  resourcePool:
+  folder:
+  datastore:
+  networkName:
